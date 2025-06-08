@@ -15,7 +15,7 @@ def guardar_datos(valores):
     conn = conectar_db()
     cursor = conn.cursor()
     cursor.execute(
-        "INSERT INTO sensores (temperatura, humedad, proximidad, presion) VALUES (%s, %s, %s, %s)",
+        "INSERT INTO sensores (temperatura, humedad, proximidad, nivel_gas) VALUES (%s, %s, %s, %s)",
         valores
     )
     conn.commit()
