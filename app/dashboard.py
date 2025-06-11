@@ -5,7 +5,7 @@ import os
 st.set_page_config(page_title="Dashboard de Sensores", layout="centered")
 
 st.title("📊 Dashboard en Vivo - Proyecto Microcontroladores")
-st.markdown("**Universidad Nacional de Piura**  \nCurso: *Microcontroladores II*  \nIntegrantes: 👥")
+st.markdown("**Universidad Nacional de Piura**  \nCurso: *Microcontroladores II*  \nIntegrantes: CURO JACINTO MARIO ALBERTO  \nCRUZ CHINGEL IVAN  \nRAMIREZ ROSADO ROBERT")
 
 # Verificar si el CSV existe
 if not os.path.exists("historico.csv"):
